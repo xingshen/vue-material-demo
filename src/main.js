@@ -19,7 +19,7 @@ router.beforeEach((to, from, next) => {
     let mainContent = document.querySelector('.main-content')
 
     if (mainContent) {
-      mainContent.scrollTop = 0
+      // mainContent.scrollTop = 0
     }
 
     Learn.closeSidenav()

@@ -5,7 +5,7 @@
     <block-content block-title="Default">
       <div class="block-content">
         <md-avatar>
-          <img :src="photo">
+          <img src="assets/avatar.png">
         </md-avatar>
 
         <md-avatar class="md-avatar-icon">

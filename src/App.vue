@@ -21,11 +21,12 @@
       </md-list>
     </div>
   </md-sidenav>
-  <transition name="md-router" appear>
-    <keep-alive>
-      <router-view></router-view>
-    </keep-alive>
-  </transition>
+
+
+  <keep-alive include="">
+    <router-view></router-view>
+  </keep-alive>
+
 </div>
 </template>
 
